@@ -1,0 +1,63 @@
+.header{
+    text-align: center;
+    
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section,.main{
+    border: 1px solid black;
+}
+
+.main{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    padding: 3px 20px 3px 20px;
+    
+}
+.section{
+    text-align: justify;
+    margin:10px;
+    float: left;
+    box-sizing:border-box;
+    position: relative;
+    background-color: rgb(192, 189, 189);
+   
+}
+.desc{
+    padding: 40px 10px 10px 10px;
+}
+.chicken{
+    background-color: rgb(207, 120, 117);
+}
+.beef{
+    background-color: rgb(153, 49, 49);
+    color: white;
+}
+.sushi{
+    background-color: rgb(224, 224, 160);
+}
+
+@media (min-width:992px){
+    .col-4{
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .col-6{
+        width: calc(50% - 20px);
+    }
+    .last{
+        width: calc(100% - 20px);
+    }
+    
+}
+@media (max-width:767px){
+    .col-12{
+        width: calc(100% - 20px);
+    }
+}
+
