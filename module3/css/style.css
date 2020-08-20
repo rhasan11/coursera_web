@@ -1,0 +1,21 @@
+.one h2{
+    padding-top: 10px;
+}
+.one{
+    background-color: rgb(149, 150, 139);
+    background-clip: content-box;
+    margin: 20px 0;
+}
+.one p{
+    text-align: justify;
+    padding: 5px 15px 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 20px;
+}
+body{
+    background-image: url("../images/paper.gif");
+}
